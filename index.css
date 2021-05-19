@@ -1,0 +1,93 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+    height: 80px;
+    background: black;
+    margin-top: 20px;
+
+}
+nav h1{
+    width: 150px;
+    position: absolute;
+    top: 17px;
+    left: 12%;
+    color: white;
+    width:20px;
+    font-size: 30px;
+}
+nav ul{
+    float: right;
+    margin-right: 25px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+}
+nav ul li a{
+    position: relative;
+    color: black;
+    font-size: 18px;
+    padding: 5px 0;
+    text-transform: uppercase;
+    color: white;
+}
+nav ul li a:hover{
+    color: #18BA99;
+    text-decoration: underline;
+}
+
+
+.banner {
+    display: flex;
+    margin-top:80px;
+}
+.left-column, .right-column {
+    flex-basis: 50%;
+}
+.right-column img {
+    width: 60%;
+    margin-left: 30px;
+}
+
+.left-column{
+    margin-left:400px;
+    margin-top:50px;
+}
+.left-column h1{
+    margin-right: 45px;
+    margin-top: 80px;
+    font-size:60px;
+    color: white;
+}
+.left-column h3{
+    font-size:50px;
+    color: white;
+   
+}
+.left-column p{
+    margin-top:30px;
+   
+}
+span{
+    color: #f14a60;
+}
+
+.hobby{
+    color: blue;
+}
+.extra-color{
+    background-color:#FF7F27;
+    color: white;
+}
+.blog{
+    color: purple;
+}
